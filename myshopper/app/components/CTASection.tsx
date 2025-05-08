@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "../components/ui/button";
 
-export default function CTASection () {
+const CTASection: React.FC = () => {
   return (
     <section className="py-16 md:py-24 bg-gradient-to-r from-shoppers-green to-shoppers-light-green text-white">
       <div className="container mx-auto px-4 md:px-8 lg:px-16 text-center">
@@ -21,3 +21,5 @@ export default function CTASection () {
     </section>
   );
 };
+
+export default CTASection
